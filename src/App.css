@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 40px;
+  background-color: rgb(34, 77, 77);
+  color: white;
+  font-weight: 400;
+}
+
+input {
+  height: 25px;
+
+}
+
+.todos--display{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 0px;
+  margin: auto;
+  width: 60%;
+  padding: 2px 15% ;
+
+}
+
+.todos--display p{
+  width: 100%;
+  text-align: left;
+  /* height: 10px; */
+  align-items: center;
+  
+}
+.todos--display button{
+  /* margin: 10px; */
+  height: 30px;
+}
+
+@media screen and (max-width:768px){
+  .todos--display{
+    width: 100%;
+  }
+}
